@@ -19,21 +19,21 @@ module.exports = { session: process.env.SESSION_ID || 'Byte;;;',
 
 
 
-    PREFIXE: process.env.PREFIX || ".",
+    PREFIXE: process.env.PREFIX || "+",
 
 
 
 ///////////////////////////
-    A_REACT : process.env.AUTO_REACTION || 'on',
-    CHATBOT: process.env.CHAT_BOT || "off",
-    OWNER_NAME: process.env.OWNER_NAME || "TALKDROVE",
-    NUMERO_OWNER : process.env.OWNER_NUMBER || "923072380380",              
-    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
-    AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'non',
+    A_REACT : process.env.AUTO_REACTION || 'off',
+    CHATBOT: process.env.CHAT_BOT || "on",
+    OWNER_NAME: process.env.OWNER_NAME || "Ernest",
+    NUMERO_OWNER : process.env.OWNER_NUMBER || "2349065526692",              
+    AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "non",
+    AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'yes',
     BOT : process.env.BOT_NAME || 'BYTE-MD',
     OPENAI_API_KEY : process.env.OPENAI_API_KEY || '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',
-    URL : process.env.BOT_MENU_LINKS || 'https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/BYTE-MD-LITE.jpeg',
-    MODE: process.env.PUBLIC_MODE || "yes",
+    URL : process.env.BOT_MENU_LINKS || 'https://whatsapp.com/channel/0029VakMfZR4yltPyixMaK0D',
+    MODE: process.env.PUBLIC_MODE || "no",
     PM_PERMIT: process.env.PM_PERMIT || 'no',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME,
     HEROKU_APY_KEY : process.env.HEROKU_API_KEY ,
